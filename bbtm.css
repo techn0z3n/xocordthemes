@@ -57,7 +57,7 @@ body {
     --transparency-tweaks: on; /* Turns on tweaks for better transparency */
     --remove-bg-layer: off; /* Keep off, as you have a background image */
     --panel-blur: on; /* Optional: Adds a subtle blur to panels for better contrast */
-    --blur-amount: 8px; /* Reduced blur amount for a subtler effect */
+    --blur-amount: 4px; /* Reduced blur amount for a subtler effect */
     --bg-floating: var(--bg-3);
     /* ----------------------------------- */
 
@@ -150,4 +150,5 @@ body {
     --purple-3: oklch(65% 0.11 310);
     --purple-4: oklch(60% 0.11 310);
     --purple-5: oklch(55% 0.11 310);
+
 }
