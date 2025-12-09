@@ -1,1 +1,3 @@
-uses some stuff from `https://refact0r.github.io/midnight-discord/build/midnight.css`
+uses some stuff from, thanks to refact0r `https://refact0r.github.io/midnight-discord/build/midnight.css`
+
+# you NEED vencord or betterdiscord to use these themes
