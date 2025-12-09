@@ -1,0 +1,109 @@
+/**
+ * @name Echoes of Silence (All Red Text)
+ * @description A dark, moody, and minimalist theme inspired by The Weeknd's Echoes of Silence era, featuring a deep red color scheme for all text.
+ * @author logi
+ * @version 3.1.0
+ * @website https://guns.lol/technozen
+ */
+
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+body {
+    --font: 'figtree'; 
+    --code-font: ''; 
+    font-weight: 400;
+
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --border-hover-transition: 0.2s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar; 
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: off; 
+    --dms-icon-svg-url: url(''); 
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--icon-secondary);
+    --dms-icon-color-after: var(--red-2);
+    --custom-dms-background: off;
+    --dms-background-image-url: url(''); 
+    --dms-background-image-size: cover; 
+    --dms-background-color: var(--bg-1);
+
+    --background-image: on; 
+    --background-image-url: url('https://i.ytimg.com/vi/_dikAddzANc/hqdefault.jpg');
+    --background-image-size: cover; 
+    --background-image-position: center;
+
+    --transparency-tweaks: on; 
+    --remove-bg-layer: off; 
+    --panel-blur: on; 
+    --blur-amount: 4px; 
+    --bg-floating: var(--bg-3);
+
+    --custom-chatbar: off; 
+    --chatbar-height: 47px;
+
+    --small-user-panel: on;
+}
+
+:root {
+    --colors: on; 
+
+    --red-1: oklch(75% 0.15 20);
+    --red-2: oklch(65% 0.18 20);
+    --red-3: oklch(55% 0.2 20);
+    
+    --green-status: oklch(65% 0.1 160);
+    --blue-status: oklch(60% 0.12 240);
+    
+    /* All text colors are now shades of red */
+    --text-0: var(--bg-4); 
+    --text-1: var(--red-2); 
+    --text-2: var(--red-1); 
+    --text-3: var(--red-2); 
+    --text-4: var(--red-3); 
+    --text-5: var(--red-3); 
+
+    --bg-1: hsla(0, 0%, 8%, 0.85); 
+    --bg-2: hsla(0, 0%, 5%, 0.75); 
+    --bg-3: hsla(0, 0%, 3%, 0.6); 
+    --bg-4: hsla(0, 0%, 0%, 0.3); 
+    --hover: hsla(0, 0%, 15%, 0.2); 
+    --active: hsla(0, 0%, 15%, 0.3);
+    --active-2: hsla(0, 0%, 15%, 0.4); 
+    --message-hover: hsla(0, 0%, 0%, 0.15);
+
+    --accent-1: var(--red-2); 
+    --accent-2: var(--red-3); 
+    --accent-3: var(--red-1); 
+    --accent-4: var(--red-3); 
+    --accent-5: var(--red-2); 
+    --accent-new: var(--red-2); 
+    
+    --mention: linear-gradient(to right, color-mix(in hsl, var(--red-2), transparent 90%) 40%, transparent); 
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--red-2), transparent 95%) 40%, transparent); 
+    --reply: linear-gradient(to right, color-mix(in hsl, var(--red-3), transparent 90%) 40%, transparent); 
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--red-3), transparent 95%) 40%, transparent); 
+
+    --online: var(--green-status); 
+    --dnd: var(--red-2); 
+    --idle: var(--red-3); 
+    --streaming: var(--blue-status); 
+    --offline: var(--red-3); 
+    
+    --border-light: var(--hover); 
+    --border: var(--active); 
+    --border-hover: var(--active); 
+    --button-border: hsl(0, 0%, 100%, 0.1); 
+}
