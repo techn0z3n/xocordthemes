@@ -1,0 +1,106 @@
+/**
+ * @name House of Balloons
+ * @description A dark, raw, and minimalist theme inspired by The Weeknd's House of Balloons era, using only black, white, and gray tones.
+ * @author logi
+ * @version 1.0.2
+ * @website https://guns.lol/technozen
+ */
+
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+body {
+    --font: 'figtree'; 
+    --code-font: ''; 
+    font-weight: 400;
+
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --border-hover-transition: 0.2s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar; 
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: off; 
+    --dms-icon-svg-url: url(''); 
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--icon-secondary);
+    --dms-icon-color-after: var(--white);
+    --custom-dms-background: off;
+    --dms-background-image-url: url(''); 
+    --dms-background-image-size: cover; 
+    --dms-background-color: var(--bg-1);
+
+    --background-image: on; 
+    --background-image-url: url('https://w0.peakpx.com/wallpaper/600/416/HD-wallpaper-the-weeknd-balloons-weeknd.jpg');
+    --background-image-size: cover; 
+    --background-image-position: center;
+
+    --transparency-tweaks: on; 
+    --remove-bg-layer: off; 
+    --panel-blur: on; 
+    --blur-amount: 4px; 
+    --bg-floating: var(--bg-3);
+
+    --custom-chatbar: off; 
+    --chatbar-height: 47px;
+
+    --small-user-panel: on;
+}
+
+:root {
+    --colors: on; 
+
+    --pure-white: hsl(0, 0%, 95%);
+    --light-gray: hsl(0, 0%, 75%);
+    --medium-gray: hsl(0, 0%, 50%);
+    --dark-gray: hsl(0, 0%, 25%);
+    
+    --text-0: var(--bg-4); 
+    --text-1: var(--pure-white); 
+    --text-2: var(--pure-white);
+    --text-3: var(--light-gray); 
+    --text-4: var(--medium-gray); 
+    --text-5: var(--dark-gray); 
+
+    --bg-1: hsla(0, 0%, 8%, 0.8); 
+    --bg-2: hsla(0, 0%, 5%, 0.7); 
+    --bg-3: hsla(0, 0%, 3%, 0.5); 
+    --bg-4: hsla(0, 0%, 0%, 0.2); 
+    --hover: hsla(0, 0%, 15%, 0.2); 
+    --active: hsla(0, 0%, 15%, 0.3);
+    --active-2: hsla(0, 0%, 15%, 0.4); 
+    --message-hover: hsla(0, 0%, 0%, 0.15);
+
+    --accent-1: var(--pure-white); 
+    --accent-2: var(--light-gray); 
+    --accent-3: var(--light-gray); 
+    --accent-4: var(--medium-gray); 
+    --accent-5: var(--pure-white); 
+    --accent-new: var(--pure-white); 
+    
+    --mention: linear-gradient(to right, color-mix(in hsl, var(--pure-white), transparent 90%) 40%, transparent); 
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--pure-white), transparent 95%) 40%, transparent); 
+    --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent); 
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent); 
+
+    --online: var(--light-gray); 
+    --dnd: var(--dark-gray); 
+    --idle: var(--medium-gray); 
+    --streaming: var(--medium-gray); 
+    --offline: var(--dark-gray); 
+
+    --border-light: var(--hover); 
+    --border: var(--active); 
+    --border-hover: var(--active); 
+    --button-border: hsl(0, 0%, 100%, 0.1); 
+}
